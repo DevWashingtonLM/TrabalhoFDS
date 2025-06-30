@@ -1,0 +1,56 @@
+body {
+    background-color: rgb(165, 188, 205);
+}
+#h1{
+    color: rgb(255, 0, 0);
+    text-align: center;
+}
+
+p{
+    font-size: 25px;
+    text-align: justify;
+}
+
+ul{
+    line-height: 1.5;
+}
+
+.imagem{
+    width: 400px;
+    border-radius: 20px;
+}
+table, tr, td{
+    border: 1px solid #444;
+    border-collapse: collapse;
+    padding: 5px 2px 5px 2px;
+    color: #1900ff;
+    
+}
+
+#h4{
+    color: rgb(77, 77, 77);
+    font-size: 20px;
+}
+#link{
+    color: blue;
+}
+
+#link:hover {
+    color:red;
+}
+.div{
+    display: flex;
+    align-items: center;
+    gap: 200px;
+}
+
+.imagens{
+    display: flex;
+    gap: 200px;
+    align-items: center;
+}
+.imagens img {
+    width: 150px;
+    height: auto;
+    border-radius: 8px;
+}
